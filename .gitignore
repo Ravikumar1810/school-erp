@@ -1,0 +1,25 @@
+# dependencies
+node_modules
+
+# build
+.next
+dist
+out
+
+# logs
+*.log
+
+# env
+.env
+.env.local
+.env.development.local
+.env.production.local
+
+# turbo
+.turbo
+
+# vscode
+.vscode
+
+# misc
+.DS_Store
