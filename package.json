@@ -5,6 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "turbo start",
     "dev": "turbo dev",
     "build": "turbo build",
     "lint": "turbo lint",
@@ -12,7 +13,11 @@
     "check-types": "turbo check-types"
   },
   "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
+    "@types/passport-jwt": "^4.0.1",
+    "drizzle-kit": "^0.31.10",
     "prettier": "^3.9.5",
+    "tsx": "^4.23.1",
     "turbo": "^2.10.4",
     "typescript": "^5.9.3"
   },
@@ -26,5 +31,22 @@
       "onFail": "download"
     }
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "@nestjs/common": "^11.1.28",
+    "@nestjs/config": "^4.0.4",
+    "@nestjs/core": "^11.1.28",
+    "@nestjs/jwt": "^11.0.2",
+    "@nestjs/passport": "^11.0.5",
+    "bcrypt": "^6.0.0",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.15.1",
+    "dotenv": "^17.4.2",
+    "drizzle-orm": "^0.45.2",
+    "esbuild": "0.18.20",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "postgres": "^3.4.9",
+    "zod": "^4.4.3"
+  }
 }
