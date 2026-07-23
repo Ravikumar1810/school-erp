@@ -2,6 +2,7 @@
   "name": "school-erp",
   "private": true,
   "version": "1.0.0",
+  "packageManager": "pnpm@11.12.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -24,13 +25,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devEngines": {
-    "packageManager": {
-      "name": "pnpm",
-      "version": "^11.12.0",
-      "onFail": "download"
-    }
-  },
   "type": "module",
   "dependencies": {
     "@nestjs/common": "^11.1.28",
